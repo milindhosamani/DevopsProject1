@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: mycontainer
-        image: milind07/ci-pipeline  # replace with your Docker-image pushed on Dockerhub
+        image: milind07/ci-pipeline # replace with your Docker-image pushed on Dockerhub
         ports:
         - containerPort: 8080
+
 
